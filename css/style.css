@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@700 & family= Roboto:wght@300 & display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+header h1 {
+    color:#CE212A;
+}
+
+header{
+    background-color:#DBD3D8;
+    }
+
+ header nav ul li{
+        display:inline-block;
+    }
+header nav ul {
+    list-style:none;
+    }
+header nav ul li a{
+        text-decoration:none;
+        color:#CE212A;
+        font-family:'Lato', sans-serif;
+    }
+
+header nav ul li a:hover{
+    color: #F7EE7F
+}
+    
+    .hero {
+        max-width: 100%;
+        background-image: url(../img/minis.jpeg);
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .hero div h1{
+        text-align: center;
+        padding-top: 45px;
+        color:#CE212A;
+        font-size: 40px;
+        font-style: italic;
+    }
+    .hero div p {
+        text-align: center;
+        padding-top: 45%;
+       }
+    
+       .productos div{
+        display: inline-block;
+    }
+    
+    .productos div img{
+        width: 250px;
+        height: 250px;
+    }
+    
+
+    main section h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    }
+    
+    /*-------Contacto--------*/
+    .contactanos {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    }
+    .contestamos {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 10px 8px 15px 8px;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    .formularioContacto {
+        display: flex;
+        flex-direction: column;
+        width: 50;
+        text-align: center;
+        margin: 1rem 4rem 1rem 0;
+        padding: 1.2rem;
+        border: #CE212A solid 1px;
+        border-radius: 1rem;
+        background-color: #CE212A;
+        color: white;
+        *, ::after, ::before {
+            box-sizing: border-box;
+
+        }
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+    user agent stylesheet
+    form {
+        display: block;
+        margin-top: 0em;
+    }
+    body {
+        font-family: "fira sans", sans-serif;
+    }
+    .campo {
+        margin: 6px 0;
+        padding: 9px;
+        border-radius: 5px;
+    }
+
+    /*--------Marcas---------*/
+    .marcas {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 100%;
+    }
+    .marcas {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 1rem;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+    }
+
+    @media (max-width: 600px) {
+        .facet_sidebarmonospace {
+          display: none;
+        }
+      }
+
+.imgmarcas{
+    width: 15rem;
+    margin: 1rem;
+    grid-area: imgmarcas;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.animate__flipInX {
+    -webkit-backface-visibility: visible!important;
+    backface-visibility: visible!important;
+    -webkit-animation-name: flipInX;
+    animation-name: flipInX;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+grid
