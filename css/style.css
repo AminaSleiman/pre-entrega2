@@ -1,22 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-
+}
 
 @import url('https://fonts.googleapis.com/css2? family= Lato:wght@700 & family= Roboto:wght@300 & display=swap');
 *{
     margin: 0;
     padding:0;
+    -moz-box-sizing: ;
 }
-
 header h1 {
     color:#CE212A;
 }
 
 header{
     background-color:#DBD3D8;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    padding: 15px ;
     }
 
- header nav ul li{
-        display:inline-block;
-    }
 header nav ul {
+    display: flex;
     list-style:none;
     }
 header nav ul li a{
@@ -29,36 +36,80 @@ header nav ul li a:hover{
     color: #F7EE7F
 }
     
-    .hero {
+   .hero {
         max-width: 100%;
         background-image: url(../img/minis.jpeg);
         width: 100%;
-        height: 200px;
+        height: 250px;
         background-size: cover;
         background-attachment: fixed;
+        background-position: center ;
+    
     }
-    .hero div h1{
+    .hero div h1 {
         text-align: center;
         padding-top: 45px;
         color:#CE212A;
         font-size: 40px;
         font-style: italic;
     }
+    .hero div p{
+        text-align: center;
+        padding-top: 45px;
+        color:#CE212A;
+        font-size: 40px;
+        font-style: italic;
+        color: bisque;
+    }
+
     .hero div p {
         text-align: center;
-        padding-top: 45%;
+        padding-top: 0;
        }
     
-       .productos div{
-        display: inline-block;
+    .productos > div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
-    
-    .productos div img{
-        width: 250px;
-        height: 250px;
-    }
-    
 
+
+    .productos .productos-contenedor div{
+        text-align: center;
+        border: 1px solid black;
+        height: 360px;
+        width: 250px;
+        border-radius: 15px;
+        box-shadow: 10px 10px 27px -4px rgba(0,0,0,0.75);
+        }
+    
+    .productos .productos-contenedor h3{
+      text text-align: center;
+    }
+
+
+
+    .productos div img{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+    }
+    /*Para despegarlo de la foto*/
+    .productos div h3{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .productos div a{
+    text-decoration: none; 
+    text-align: center;
+    background-color: lightcoral;  
+    color: white;  
+    padding: 5px 10px 5px 10px; 
+    border-radius: 19px;
+    }
+
+    /*--------position--------*/
     main section h2 {
     text-align: center;
     font-weight: bold;
@@ -99,10 +150,7 @@ header nav ul li a:hover{
         }
     }
     
-    * {
-        margin: 0;
-        padding: 0;
-    }
+  
     *, ::after, ::before {
         box-sizing: border-box;
     }
@@ -121,11 +169,10 @@ header nav ul li a:hover{
     }
 
     /*--------Marcas---------*/
-    .marcas {
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        width: 100%;
+    .imgmarcas .column {
+      display: flex;
+      height: 180px;
+      width: 180px;
     }
     .marcas {
         text-align: center;
@@ -148,20 +195,11 @@ header nav ul li a:hover{
     animation-duration: 2s;
     animation-iteration-count: 1;
 }
-.animate__flipInX {
-    -webkit-backface-visibility: visible!important;
-    backface-visibility: visible!important;
-    -webkit-animation-name: flipInX;
-    animation-name: flipInX;
-}
 
 img, svg {
     vertical-align: middle;
 }
-* {
-    margin: 0;
-    padding: 0;
-}
+
 *, ::after, ::before {
     box-sizing: border-box;
 }
